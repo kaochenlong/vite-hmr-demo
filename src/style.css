@@ -1,0 +1,36 @@
+:root {
+  --vue-green: #41b883;
+  --vue-green-dark: #34495e;
+}
+
+body {
+  padding: 0.5rem 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#run-mode {
+  background-color: var(--vue-green);
+  color: white;
+  padding: 4px 10px;
+}
+
+#heading {
+  background-color: var(--vue-green-dark);
+  color: white;
+  padding: 0.4rem 1rem;
+}
+
+#timer {
+  color: var(--vue-green);
+  font-size: x-large;
+  font-weight: 800;
+}
+
+#text {
+  font-weight: 800;
+  font-size: x-large;
+  color: var(--vue-green-dark);
+}
